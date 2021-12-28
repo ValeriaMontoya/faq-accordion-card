@@ -120,6 +120,10 @@ body {
   font-weight: 400;
 }
 
+.faq__list__question--text:hover {
+  color: var(--soft-red);
+}
+
 .faq__list__question--selected {
   font-weight: 700;
 }
