@@ -35,13 +35,15 @@ html {
 body {
   background: linear-gradient(var(--soft-violet), var(--soft-blue));
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   font-family: var(--primary-font);
   font-size: var(--font-size-medium);
   font-weight: 400;
   color: var(--very-dark-desaturated-blue);
-  padding: 20vh 0;
-  height: 100vh;
+}
+
+main {
+  padding: 20vh 0 8vh;
 }
 
 .container {
